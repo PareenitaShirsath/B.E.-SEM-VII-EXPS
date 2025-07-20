@@ -25,6 +25,7 @@
 
 | Sr. No | Name of Experiment                                                                                                                                      | Mapped CO   |
 |--------|----------------------------------------------------------------------------------------------------------------------------------------------------------|-------------|
+ AIM - To explore python libraries for deep learning e.g. Theano, TensorFlow etc.
 | 1      | Implement Multilayer Perceptron algorithm to simulate XOR gate.                                                                                         | CSL701.1    |
 | 2      | To explore Python libraries for deep learning e.g. Theano, TensorFlow etc.                                                                              | CSL701.1    |
 | 3      | Apply any of the following learning algorithms to learn the parameters of the supervised single layer feedforward neural network:                       | CSL701.2    |
