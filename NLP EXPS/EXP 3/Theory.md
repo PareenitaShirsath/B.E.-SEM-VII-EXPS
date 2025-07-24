@@ -36,18 +36,6 @@ Lemmatization is the process of reducing a word to its base or dictionary form, 
 - **Reduces Data Redundancy:** By reducing words to their base forms, it reduces redundancy in the dataset.
 - **Enhances Model Performance:** Helps models understand the context and meaning of words.
 
-**Implementation in NLTK:**
-
-## 2. Lemmatization
-
-**Definition:**  
-Lemmatization is the process of reducing a word to its base or dictionary form, known as a lemma. Unlike stemming, lemmatization considers the word's meaning and part of speech, ensuring that the base form is a valid word.
-
-**Why Use Lemmatization?**
-
-- **Improves Accuracy:** Ensures words with similar meanings are treated as the same.
-- **Reduces Data Redundancy:** By reducing words to their base forms, it reduces redundancy in the dataset.
-- **Enhances Model Performance:** Helps models understand the context and meaning of words.
 
   ## 3. Stemming
 
@@ -59,17 +47,3 @@ Stemming is a text preprocessing technique in Natural Language Processing (NLP) 
 - **Speeds Up Processing:** Stemming is faster than lemmatization because it uses simple, rule-based approaches without considering the context of the word.
 - **Reduces Data Size:** Helps in reducing the number of unique words, making the dataset more manageable.
 - **Simplifies Analysis:** Useful in applications like search engines and information retrieval systems where exact word forms are less important.
-
-## 4. Lemmatization
-
-**Definition:**  
-Lemmatization is the process of reducing a word to its base or dictionary form, known as a lemma. Unlike stemming, lemmatization considers the word's meaning and part of speech, ensuring that the base form is a valid word.
-
-**Why Use Lemmatization?**
-
-- **Improves Accuracy:** Ensures words with similar meanings are treated as the same. For example, "running" and "ran" are both reduced to "run," preserving their semantic meaning. :contentReference[oaicite:0]{index=0}
-
-- **Reduces Data Redundancy:** By reducing words to their base forms, it reduces redundancy in the dataset. This leads to smaller datasets, making it easier to handle and process large amounts of text for analysis or training machine learning models. :contentReference[oaicite:1]{index=1}
-
-- **Enhances Model Performance:** Helps models understand the context and meaning of words. By treating all similar words as the same, it improves the performance of NLP models by making text more consistent. :contentReference[oaicite:2]{index=2}
-
