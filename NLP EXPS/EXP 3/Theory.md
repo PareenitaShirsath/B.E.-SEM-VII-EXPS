@@ -33,4 +33,23 @@ nltk.download('stopwords')
 
 stop_words = set(stopwords.words('english'))
 filtered_tokens = [word for word in tokens if word.lower() not in stop_words]
+## 2. Lemmatization
+
+**Definition:**  
+Lemmatization is the process of reducing a word to its base or dictionary form, known as a lemma. Unlike stemming, lemmatization considers the word's meaning and part of speech, ensuring that the base form is a valid word.
+
+**Why Use Lemmatization?**
+
+- **Improves Accuracy:** Ensures words with similar meanings are treated as the same.
+- **Reduces Data Redundancy:** By reducing words to their base forms, it reduces redundancy in the dataset.
+- **Enhances Model Performance:** Helps models understand the context and meaning of words.
+
+**Implementation in NLTK:**
+
+```python
+from nltk.stem import WordNetLemmatizer
+nltk.download('wordnet')
+
+lemmatizer = WordNetLemmatizer()
+lemmatized_tokens = [lemmatizer.lemmatize(word) for word in filtered_tokens]
 
