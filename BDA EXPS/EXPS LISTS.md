@@ -11,18 +11,23 @@
 
 ---
 
-| Sr. No | Name of Experiment |
-|--------|--------------------|
-| 1 | **Hadoop HDFS Practical**: HDFS Basics, Hadoop Ecosystem Tools Overview, Installing Hadoop, Copying File to Hadoop, Copy from Hadoop File System and deleting file, Moving and displaying files in HDFS, Programming exercises on Hadoop. |
-| 2 | **Use of Sqoop tool to transfer data between Hadoop and relational database servers**.<br> A. Sqoop – Installation.<br> B. To execute basic commands of Hadoop ecosystem component Sqoop. |
-| 3 | To install and configure MongoDB / Cassandra / HBase / Hypertable to execute NoSQL commands. |
-| 4 | **Experiment on Hadoop Map-Reduce / PySpark**: Implementing simple algorithms in Map-Reduce: Matrix multiplication, Aggregates, Joins, Sorting, Searching, etc. |
-| 5 | Write a program to implement word count programs using MapReduce. |
-| 6 | Implementing DGIM algorithm using any Programming Language / Implement Bloom Filter using any programming language. |
-| 7 | Implementing any one Clustering algorithm (K-Means / CURE) using Map-Reduce. |
-| 8 | Streaming data analysis – use Flume for data capture, HIVE / PySpark for analysis of Twitter data, chat data, weblog analysis etc. |
-| 9 | Implement PageRank using Map-Reduce. |
-| 10 | Implement predictive analytics techniques (regression / time series etc.) using R / Scilab / Tableau / RapidMiner. |
+# Dates for Conduction of Practicals
+
+## B1 – Big Data Analytics Practicals
+
+| Sr. No | Name of Experiments | Date |
+|:------:|----------------------|:----:|
+| 1 | **Hadoop HDFS Practical:**  <br> - HDFS Basics, Hadoop Ecosystem Tools Overview.  <br> - Installing Hadoop.  <br> - Copying file to Hadoop, Copy from Hadoop File System and deleting file.  <br> - Moving and displaying files in HDFS.  <br> - Programming exercises on Hadoop. | 21/7/2025 |
+| 2 | **Use of Sqoop tool** to transfer data between Hadoop and relational database servers.  <br> a. Sqoop Installation  <br> b. To execute basic commands of Hadoop ecosystem component Sqoop. | 11/8/2025 |
+| 3 | **To install and configure MongoDB / Cassandra / HBase / Hypertable** to execute NoSQL commands. | 8/9/2025 |
+| 4 | **Implement Bloom Filter** using any programming language. | 8/9/2025 |
+| 5 | **Finding similar items using distance measures** (Euclidean Distance & Jaccard Distance). | 22/9/2025 |
+| 6 | **FM Algorithm** | 6/10 |
+| 7 | **DGIM Algorithm** | 6/10 |
+| 8 | **Clustering (K-Means / CURE)** | — |
+| 9 | **Linear Regression** | — |
+| 10 | **Map-Reduce – PageRank** | — |
+
 | 11 | Assignment 1 |
 | 12 | Assignment 2 |
 
